@@ -1,0 +1,296 @@
+
+.container-fluid {background-color:beige}
+
+.nav-item {font-size:small;
+    text-align: center;
+font-style:initial}
+
+.container1 {
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.estiloSidebar {
+    background-color:blanchedalmond;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.containerChat {
+    background-color:darkkhaki;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#chatCentral {
+    background-color: whitesmoke;
+    padding:10px;
+    border-radius: 2%;
+}
+
+
+
+
+.contacto {
+    background-color:lightsalmon;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.search-input{
+
+        display: flex;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 16px;
+        padding-left: 15px; 
+    }
+
+.figure1 {
+    border-radius: 50%;
+    box-shadow:0cqmin;
+}
+
+.imagenContacto {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+
+.contenedorLogo {
+    background-color: darkslateblue;
+    width: 30px;
+    height: 40px;
+    transition: background-color 2s;
+}
+
+.elLogoOriginal {
+    fill: mediumorchid;
+    transition: fill 2s;
+}
+
+@media screen and (min-width: 576px) {
+    .elLogoOriginal {
+        fill: grey;
+    }
+    .contenedorLogo {
+        background-color: sienna;
+        width: 30px;
+        height: 24px;
+    }
+}
+
+.elLogoOriginal:hover {
+    fill: black;
+    width: 200px;
+    height: 200px;
+    animation-name: cambiarLogo;
+    animation-duration: 10s;
+}
+
+@keyframes cambiarLogo {
+    0% {
+        fill: blueviolet;
+    }
+    25% {
+        fill: dodgerblue;
+    }
+    50% {
+        fill: indianred;
+    }
+    75% {
+        fill: limegreen;
+    }
+    100% {
+        fill: yellow;
+    }
+}
+
+
+/* contenedor de cada contacto */
+.contacto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* imagen del contacto */
+  .contacto-imagen img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px; 
+  }
+  
+  /* información del contacto */
+  .contacto-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+
+  /*boton de busqueda contactos*/
+  .search-container form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 15px; 
+}
+
+.search-button {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 15px; 
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+/*CHAT PRINCIPAL*/
+.contenedorPadreEnviado{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.contenedorPadreRecibido{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#contenedorMensajeEnviado{
+    display:none;
+    flex-direction: row-reverse;
+}
+.parrafoMensajeEnviado{
+    display:none;
+    flex-direction: row-reverse;
+}
+
+
+.recibido {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: goldenrod;
+    color: black;
+}
+
+.enviado {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: cadetblue;
+    color: black;
+}
+
+
+
+
+
+
+
+/* OTRAS PAGINAS*/
+
+
+/*ORGANIGRAMA*/
+
+.organigrama ul {
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .organigrama li {
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 5px 0px 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .organigrama ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #f80;
+    width: 0;
+    height: 20px;
+  }
+  
+
+
+  
+
+  /*NOTICIAS*/
+
+  
+  .imgNoticias {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .imgNoticias:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #333;
+  }
+
+
+  /*FAQ*/
+
+  #faqlist {
+    background-color:bisque;
+    max-width: 600px;
+    padding: 10px;
+  }
+  
+  .faq-item {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .faq-link {
+    font-size: 18px;
+    color: #007bff;
+  }
+
+  /*ORGANIGRAMA*/

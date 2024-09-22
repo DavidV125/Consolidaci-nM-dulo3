@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consolidación Módulo 3</title>
+  <link rel="stylesheet" href="./assets/css/misestilos.css">
+  <link rel="stylesheet" href="./assets/css/css bootstrap/bootstrap.min.css">
+</head>
+<body onload = asignarEventos()>
+
+  <!--NAVBAR-->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+  
+
+        <!--    
+
+
+
+                  <div class="contenedorLogo">
+            <img src="./assets/img/icons-solid.svg" alt="Bootstrap" width="30" height="24">
+            </div>
+
+
+
+        <div class="contenedorLogo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50" height="50">
+            <path id="miIcono" class="claseOriginalIcono" d="M500.3 7.3C507.7 13.3 512 22.4 512 32l0 144c0 26.5-28.7 48-64 48s-64-21.5-64-48 28.7-48 64-48l0-57L352 90.2 352 208c0 26.5-28.7 48-64 48s-64-21.5-64-48 28.7-48 64-48l0-96c0-15.3 10.8-28.4 25.7-31.4l160-32c9.4-1.9 19.1 .6 26.6 6.6zM74.7 304l11.8-17.8c5.9-8.9 15.9-14.2 26.6-14.2l61.7 0c10.7 0 20.7 5.3 26.6 14.2L213.3 304l26.7 0c26.5 0 48 21.5 48 48l0 112c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 352c0-26.5 21.5-48 48-48l26.7 0zM192 408a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM478.7 278.3L440.3 368l55.7 0c6.7 0 12.6 4.1 15 10.4s.6 13.3-4.4 17.7l-128 112c-5.6 4.9-13.9 5.3-19.9 .9s-8.2-12.4-5.3-19.2L391.7 400 336 400c-6.7 0-12.6-4.1-15-10.4s-.6-13.3 4.4-17.7l128-112c5.6-4.9 13.9-5.3 19.9-.9s8.2 12.4 5.3 19.2z"></path>
+          </svg>
+        </div>-->
+
+
+          <a class="navbar-brand" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50" height="50">
+            <path class="elLogoOriginal" d="M500.3 7.3C507.7 13.3 512 22.4 512 32l0 144c0 26.5-28.7 48-64 48s-64-21.5-64-48 28.7-48 64-48l0-57L352 90.2 352 208c0 26.5-28.7 48-64 48s-64-21.5-64-48 28.7-48 64-48l0-96c0-15.3 10.8-28.4 25.7-31.4l160-32c9.4-1.9 19.1 .6 26.6 6.6zM74.7 304l11.8-17.8c5.9-8.9 15.9-14.2 26.6-14.2l61.7 0c10.7 0 20.7 5.3 26.6 14.2L213.3 304l26.7 0c26.5 0 48 21.5 48 48l0 112c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 352c0-26.5 21.5-48 48-48l26.7 0zM192 408a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM478.7 278.3L440.3 368l55.7 0c6.7 0 12.6 4.1 15 10.4s.6 13.3-4.4 17.7l-128 112c-5.6 4.9-13.9 5.3-19.9 .9s-8.2-12.4-5.3-19.2L391.7 400 336 400c-6.7 0-12.6-4.1-15-10.4s-.6-13.3 4.4-17.7l128-112c5.6-4.9 13.9-5.3 19.9-.9s8.2 12.4 5.3 19.2z"></path>
+          </svg>
+          </a>
+
+
+
+  
+        <!-- Botón para colapsar -->
+         <a class="navbar-brand" href="#">social</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Menú colapsable -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Página Principal</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index2.html">Preguntas Frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index3.html">Manuales y Tutoriales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index4.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index5.html">Calendario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index6.html">Administración de Perfil de Usuario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index7.html">Organigrama de la Empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index8.html">Chat para Vendedores y Equipo de Soporte</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--FIN NAVBAR-->
+
+  <!--APP con contactos y chat--> 
+  <main class="container">
+    <div class="row container1">
+
+      <!-- SIDEBAR DE CONTACTOS-->
+
+      <aside class="col-xs-12 col-md-4 d-none d-sm-block estiloSidebar">
+        <div class="container">
+          <h2>Contactos</h2>
+          <div class="search-container col-xs-12 col-md-4 d-none d-sm-block">
+            <form>
+              <input type="text" placeholder="Buscar conversación..." class="search-input" />
+            </form>
+          </div>
+<br>
+    <!-- ICONO NOMBRE y HORA de CONTACTOS-->
+    <!-- 1-->
+    <div class="contacto">
+      <div class="contacto-imagen">
+        <img src="./assets/img/c1.jpeg" alt="Contacto 1" class="img-fluid figure1">
+      </div>
+      <div class="contacto-info">
+        <p>Bulbasaur</p>
+        <p id="horaActual">2:33pm</p>
+      </div>
+    </div>
+
+    <!-- 2-->
+    <div class="contacto" onclick="marcarLeido(this)">  <!--con this solo se selecciona este elemento en el dom-->
+      <div class="contacto-imagen">
+        <img src="./assets/img/char1.jpeg" alt="Contacto 1" class="img-fluid figure1">
+      </div>
+      <div class="contacto-info">
+        <p>Charmander</p>
+        <p id="estadoMensaje"><b>No leído </b>Ayer 1:15m</p>
+      </div>
+    </div>
+
+    <!-- 3-->
+    <div class="contacto" onclick="marcarLeido(this)">
+      <div class="contacto-imagen">
+        <img src="./assets/img/vulpix.jpeg" alt="Contacto 1" class="img-fluid figure1">
+      </div>
+      <div class="contacto-info">
+        <p>Vulpix</p>
+        <p id="estadoMensaje"><b>No leído </b>Ayer 11:05am</p>
+      </div>
+    </div>
+
+    <!-- 4-->
+    <div class="contacto" onclick="marcarLeido(this)">
+      <div class="contacto-imagen">
+        <img src="./assets/img/pikachu.jpeg" alt="Contacto 1" class="img-fluid figure1">
+      </div>
+      <div class="contacto-info">
+        <p>Pikachu</p>
+        <p id="estadoMensaje"><b>No leído </b>Ayer 2:52am</p>
+      </div>
+    </div>
+
+    <!-- 5-->
+    <div class="contacto" onclick="marcarLeido(this)">
+      <div class="contacto-imagen">
+        <img src="./assets/img/onyx.jpeg" alt="Contacto 1" class="img-fluid figure1">
+      </div>
+      <div class="contacto-info">
+        <p>Onix</p>
+        <p id="estadoMensaje"><b>No leído </b>Ayer 1:18am</p>
+      </div>
+    </div>
+    <!-- FIN ICONO NOMBRE y HORA de CONTACTOS-->
+  </div>
+  <!-- FIN contenedor Contactos-->
+</aside>
+
+      <!-- FIN  SIDEBAR DE CONTACTOS-->
+
+
+
+
+
+
+
+
+
+      <!-- Chat principal -->
+      <article class="col-xs-12 col-md-8 containerChat">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="container">
+                        <div class="row">
+                           
+                          
+                          <div class="col-xs-12 col-md-2">
+                                    <figure>
+                                        <img class="figure1" src="assets/img/c1.jpeg" alt="gon">
+                                    </figure>
+                                    <hr>
+                                    <div class="dropdown">
+                                      <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Archivos Recibidos
+                                      </button>
+                                      <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Imagenes</a></li>
+                                        <li><a class="dropdown-item" href="#">Videos</a></li>
+                                        <li><a class="dropdown-item" href="#">Documentos</a></li>
+                                      </ul>
+                                    </div>
+                                    <br>
+                            </div>
+                           
+                           
+                            <div class="col-xs-12 col-md-10 text-center">
+                                <h2> Bulbasaur </h2>
+                            </div>
+
+
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div id="chatCentral" class="col-xs-12">
+                  <div class="contenedorPadreRecibido">
+                    <div class="recibido">
+                      Hola, como estás
+                      </div>
+                  </div>
+
+                  <div class="contenedorPadreEnviado">
+                    <div class="enviado">
+                      Bien y tu?
+                      </div>
+                  </div>                  
+                  
+                  <div class="contenedorPadreRecibido">
+                    <div class="recibido">
+                      bien tambien.
+                      </div>
+                  </div>
+
+                  <div class="contenedorPadreEnviado">
+                    <div class="enviado">
+                      me tengo que ir
+                      </div>
+                  </div>
+                  
+                  <div class="contenedorPadreRecibido">
+                    <div class="recibido">
+                      Chao!
+                      </div>
+                  </div>
+
+                  <div class="contenedorPadreEnviado">
+                    <div class="enviado" id="contenedorMensajeEnviado">
+                      <p id="parrafoMensajeEnviado"></p>
+                      </div>
+                  </div>
+
+
+
+                </div>
+      <!--BOTON ENVIAR--> 
+      <div class="col-xs-12">
+        <br>
+
+        <form class="d-flex"> <!-- d-flex contenedor flexible -->
+            <input type="text" id="txtMensaje" class="form-control" placeholder="Escribe tu mensaje...">
+            <input type="button" class="btn btn-success" value="Enviar" id="btnEnviar">
+        </form>
+    </div>
+<!--FIN BOTON ENVIAR--> 
+            </div>
+        </div>
+    </article>
+      <!--FIN CHAT PRINCIPAL--> 
+
+    </div>
+    <!--FIN CONTENEDOR PRINCIPAL--> 
+  </main>
+  <!-- FIN APP con contactos y chat--> 
+
+  <!--FOOTER--> 
+  <footer class="container">
+    <p>Desarrollado por <b>David Villacura</b></p>
+  </footer>
+  <!--FOOTER--> 
+
+  <script src="./assets/js/js bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/logica.js"></script>
+</body>
+</html>
